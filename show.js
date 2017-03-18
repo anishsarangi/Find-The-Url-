@@ -1,3 +1,3 @@
-chrome.runtime.sendMessage(function(response) {
+chrome.runtime.sendMessage({greeting:"hello"},function(response) {
 	console.log(response.farewell);  
 });
